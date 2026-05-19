@@ -1,6 +1,6 @@
 # EVTA
 
-![EVTA Dashboard](sandbox:/mnt/data/b73276a6-5dff-4730-937e-d3fc1ff4f36e.png)
+![EVTA Dashboard](car.png)
 
 Electric Vehicles Threat Analysis LLM-based tool (EVTA-LLM) is a deployment-oriented Electric Vehicle (EV) traffic analysis and threat-detection feature extraction framework designed for both **offline dataset generation** and **real-time live monitoring**. The framework converts raw EV network traffic into enriched, analyst-friendly flow features suitable for cybersecurity research, operational monitoring, and machine learning pipelines.
 
