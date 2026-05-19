@@ -16,7 +16,7 @@ Unlike traditional CSV-only flow extractors, EVTA acts as a complete **feature i
 * Providing a desktop monitoring dashboard
 
 
-!Download dataset from DataPort (https://ieee-dataport.org/documents/evtd-llm-electric-vehicle-traffic-dataset-llm-generated-behavioral-context-threat)
+!Download dataset from DataPort [EVTD-LLM Repository](https://github.com/mfawzy/Electric-Vehicles-Threat-Analysis-LLM-based-tool-EVTA-LLM-)
 
 The framework maintains a shared extraction pipeline between offline and live modes to preserve feature consistency across experiments and deployments.
 
