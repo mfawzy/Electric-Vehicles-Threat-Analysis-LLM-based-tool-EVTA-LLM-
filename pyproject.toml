@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ev-ids-sentinel"
+version = "0.4.0"
+description = "EV-IDS Sentinel: Electric Vehicle IDS feature extraction and live traffic dashboard"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "dpkt>=1.9.8",
+  "scapy>=2.5.0",
+  "transformers>=4.41.0",
+  "torch>=2.1.0",
+  "PySide6>=6.7.0"
+]
+
+[project.scripts]
+ev-ids-sentinel = "ev_ids_sentinel.cli:main"
+ev-ids-sentinel-gui = "ev_ids_sentinel.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ev_ids_sentinel*"]
+exclude = ["tests*"]
